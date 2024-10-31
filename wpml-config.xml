@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_paybyway_settings">
+			<key name="paybyway_description" />
+			<key name="title" />
+		</key>
+	</admin-texts> 
+</wpml-config>

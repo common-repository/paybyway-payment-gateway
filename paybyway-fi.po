@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Paybyway Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-27 15:14+0300\n"
+"PO-Revision-Date: 2016-09-27 15:15+0300\n"
+"Last-Translator: maksukaista <asiakaspalvelu@maksukaista.fi>\n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fi_FI\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: paybyway.php:37
+msgid "Maksukaista Woocommerce"
+msgstr "Maksukaista Woocommerce"
+
+#: paybyway.php:38
+msgid "Maksukaista w3-API Payment Gateway integration for Woocommerce"
+msgstr "Maksukaistan maksurajapinnan integraatio Woocommerceen"
+
+#: paybyway.php:79
+msgid ""
+"PHP cURL is not installed, install cURL to use Maksukaista payment gateway."
+msgstr ""
+"PHP cURL ei ole käytössä. Asenna cURL käyttääksesi Maksukaistan "
+"maksulisäosaa."
+
+#: paybyway.php:101
+msgid "General options"
+msgstr "Yleiset asetukset"
+
+#: paybyway.php:106
+msgid "Enable/Disable"
+msgstr "Ota käyttöön/ois käytöstä"
+
+#: paybyway.php:108
+msgid "Enable Maksukaista"
+msgstr "Ota Maksukaista käyttöön"
+
+#: paybyway.php:112
+msgid "Title"
+msgstr "Otsikko"
+
+#: paybyway.php:114
+msgid "This controls the title which the user sees during checkout."
+msgstr "Maksutavan kassasivulla näkyvä otsikko."
+
+#: paybyway.php:115
+msgid "Maksukaista"
+msgstr "Maksukaista"
+
+#: paybyway.php:118
+msgid "Description"
+msgstr "Kuvaus"
+
+#: paybyway.php:119
+msgid "Customer Message"
+msgstr "Asiakkaalle näkyvä maksutavan kuvaus."
+
+#: paybyway.php:121
+msgid ""
+"Maksukaista -palvelussa voit maksaa ostoksesi turvallisesti verkkopankin "
+"kautta, luottokortilla tai luottolaskulla."
+msgstr ""
+"Maksukaista -palvelussa voit maksaa ostoksesi turvallisesti verkkopankin "
+"kautta, luottokortilla tai luottolaskulla."
+
+#: paybyway.php:124
+msgid "Private key"
+msgstr "Yksityinen salausavain"
+
+#: paybyway.php:126
+msgid "Private key of the the sub-merchant"
+msgstr "Alikauppiaan yksityinen salausavain"
+
+#: paybyway.php:130
+msgid "API key"
+msgstr "Rajapinta-avain"
+
+#: paybyway.php:132
+msgid "API key of the the sub-merchant"
+msgstr "Alikauppiaan rajapinta-avain"
+
+#: paybyway.php:136
+msgid "Order number prefix"
+msgstr "Tilausnumeron etuliite"
+
+#: paybyway.php:138
+msgid "Prefix to avoid order number duplication"
+msgstr ""
+"Etuliitteellä vältetään samanlaisten tilaustunnusten luonti, jos "
+"kauppiastunnus on käytössä useassa verkkokaupassa."
+
+#: paybyway.php:142
+msgid "Send products"
+msgstr "Lähetä tuote-erittely"
+
+#: paybyway.php:144
+msgid "Send product breakdown to Maksukaista."
+msgstr "Lähetä tuote-erittely Maksukaistalle maksupyynnön yhteydessä."
+
+#: paybyway.php:148
+msgid "Send payment confirmation"
+msgstr "Lähetä maksuvahvistus"
+
+#: paybyway.php:150
+msgid ""
+"Send Maksukaista's payment confirmation email to the customer's billing e-"
+"mail."
+msgstr "Lähetä Maksukaistan maksuvahvitus asiakkaan sähköpostiosoitteesen."
+
+#: paybyway.php:154
+msgid "Embedded payment options"
+msgstr "Upotettujen maksutapojen asetukset"
+
+#: paybyway.php:159
+msgid "Enable embedded payment"
+msgstr "Ota käyttöön maksutapojen upotus"
+
+#: paybyway.php:161
+msgid ""
+"Enable this if you want to use embed the payment methods to the checkout-"
+"page."
+msgstr ""
+"Ota upotus käyttöön jos haluat upottaa maksupainikkeet verkkokaupan "
+"kassasivulle."
+
+#: paybyway.php:168
+msgid ""
+"Retrieve enabled payment methods automatically for embedded payment "
+"(Recommended)"
+msgstr ""
+"Hae automaattisesti kauppiastilille aktivoidut maksutavat upotusta varten."
+
+#: paybyway.php:175
+msgid "Manage payment methods"
+msgstr "Hallitse maksutapoja"
+
+#: paybyway.php:177
+msgid ""
+"You can enable all of these if you are using the option to automatically "
+"retrieve your enabled payment methods, and the payment methods will "
+"automatically be visible on the checkout page if they are available."
+msgstr ""
+"Jos käytössäsi on kauppiastilin aktivoitujen maksujen hakeminen, niin voit "
+"ottaa käyttöön kaikki alla olevat maksutavat ja kaikki käytettävissä olevat "
+"maksutavat tulevat näkyviin kassasivulle."
+
+#: paybyway.php:180
+msgid "Banks"
+msgstr "Verkkopankit"
+
+#: paybyway.php:182
+msgid "Enable bank payments in the Maksukaista payment page."
+msgstr "Ota käyttöön verkkopankkipainikkeet maksusivulla."
+
+#: paybyway.php:186
+msgid "Card payments"
+msgstr "Korttimaksut"
+
+#: paybyway.php:188
+msgid "Enable credit cards in the Maksukaista payment page."
+msgstr "Ota käyttöön luottokorttipainikkeet maksusivulla."
+
+#: paybyway.php:192
+msgid "Credit invoices"
+msgstr "Luottolaskut ja osamaksut"
+
+#: paybyway.php:194
+msgid "Enable credit invoices in the Maksukaista payment page."
+msgstr "Ota käyttöön luottolaskupainikkeet maksusivulla."
+
+#: paybyway.php:198
+msgid "Maksukaista Lasku"
+msgstr "Maksukaista Lasku"
+
+#: paybyway.php:200
+msgid ""
+"Enable Maksukaista Lasku in the Maksukaista payment page. (Only for "
+"Maksukaista Konversio customers)"
+msgstr "Ota käyttöön Maksukaista Lasku maksusivulla."
+
+#: paybyway.php:204
+msgid "Laskuyritykselle"
+msgstr "Laskuyritykselle"
+
+#: paybyway.php:206
+msgid "Enable Laskuyritykselle in the Maksukaista payment page."
+msgstr "Ota käyttöön Laskuyritykselle-maksutapa maksusivulla."
+
+#: paybyway.php:245 paybyway.php:303
+msgid "Choose your payment method and click Pay for Order"
+msgstr "Valitse maksutapa ja klikkaa Lähetä Tilaus -painiketta."
+
+#: paybyway.php:250 paybyway.php:307
+msgid "Payment card"
+msgstr "Korttimaksu"
+
+#: paybyway.php:261 paybyway.php:313
+msgid "Internet banking"
+msgstr "Verkkopankkimaksu"
+
+#: paybyway.php:286 paybyway.php:350
+msgid "Invoice or part payment"
+msgstr "Lasku tai osamaksu"
+
+#: paybyway.php:468
+msgid "Order discount"
+msgstr "Tilauksen alennukset"
+
+#: paybyway.php:534 paybyway.php:659 paybyway.php:663
+msgid "Paybyway order"
+msgstr "Maksukaista tilaus"
+
+#: paybyway.php:534
+msgid "Payment pending. Waiting for result."
+msgstr "Maksaminen kesken. Odottaa tulosta."
+
+#: paybyway.php:548 paybyway.php:563
+msgid "Payment failed due to an error."
+msgstr "Maksu epäonnistui - Tapahtui virhe."
+
+#: paybyway.php:624
+msgid "Payment method: Card payment"
+msgstr "Maksutapa: Korttimaksu"
+
+#: paybyway.php:625
+msgid "Card payment info: "
+msgstr "Korttimaksun lisätiedot:"
+
+#: paybyway.php:630
+msgid "Verified: "
+msgstr "Varmennus:"
+
+#: paybyway.php:633
+msgid "Card country: "
+msgstr "Kortin maakoodi:"
+
+#: paybyway.php:634
+msgid "Client IP country: "
+msgstr "Asiakkaan IP:n maakoodi:"
+
+#: paybyway.php:639
+msgid "Error: "
+msgstr "Virhe:"
+
+#: paybyway.php:643
+msgid "Payment method: "
+msgstr "Maksutapa:"
+
+#: paybyway.php:659
+msgid "Payment is authorized. Use settle option to capture funds."
+msgstr ""
+"Maksu varmennettu. Maksu veloitetaan painamalla Veloita maksu -painiketta."
+
+#: paybyway.php:663
+msgid "Payment accepted."
+msgstr "Maksu hyväksytty."
+
+#: paybyway.php:671
+msgid "Payment was not accepted."
+msgstr "Maksu epäonnistui."
+
+#: paybyway.php:676
+msgid ""
+"Transaction status could not be updated after customer returned from the web "
+"page of a bank. Please use the merchant UI to resolve the payment status."
+msgstr ""
+"Maksun tilaa ei voitu varmentaa asiakkaan palattua palveluumme "
+"verkkopankista. Käytä hallintapaneelia selvittääksesi maksun tilan."
+
+#: paybyway.php:681
+msgid ""
+"Maintenance break. The transaction is not created and the user has been "
+"notified and transferred back to the cancel address."
+msgstr "Huoltotauko. Maksua ei luotu, ja asiakaalle on ilmoitettu asiasta."
+
+#: paybyway.php:713
+msgid "Payment settled."
+msgstr "Maksu veloitettu."
+
+#: paybyway.php:729
+msgid "Settle payment"
+msgstr "Veloita maksu."
+
+#: paybyway.php:753
+msgid "Settlement was successful."
+msgstr "Veloitus onnistui."
+
+#: paybyway.php:756
+msgid "Settlement failed. Validation failed."
+msgstr "Veloitus epäonnistui. Validointi epäonnistui."
+
+#: paybyway.php:759
+msgid ""
+"Settlement failed. Either the payment has already been settled or the "
+"payment gateway refused to settle payment for given transaction."
+msgstr ""
+"Maksua ei voitu veloittaa. Joko maksu on jo veloitettu, tai luottolaitos "
+"hylkäsi veloituspyynnön."
+
+#: paybyway.php:762
+msgid "Settlement failed. Unkown error."
+msgstr ""
+"Tuntematon paluuarvo. Mikäli ongelma toistuu, ota yhteyttä "
+"asiakaspalveluumme."
+
+#: paybyway.php:769
+msgid "Exception, error: "
+msgstr "Exception, virhe:"
+
+#: paybyway.php:794
+msgid "The card is reported lost or stolen."
+msgstr "Kortti on ilmoitettu kadonneeksi tai varastetuksi."
+
+#: paybyway.php:796
+msgid ""
+"General decline. The card holder should contact the issuer to find out why "
+"the payment failed."
+msgstr ""
+"Yleinen hylkäys. Kortinhaltijan tulisi ottaa yhteyttä kortinmyöntäjään "
+"selvittääkseen miksi maksu epäonnistui."
+
+#: paybyway.php:798
+msgid ""
+"Insufficient funds. The card holder should verify that there is balance on "
+"the account and the online payments are actived."
+msgstr ""
+"Riittämättömät varat. Kortinhaltijan tulisi tarkistaa, että kortilla on "
+"katetta ja verkkomaksaminen on aktivoitu kortille."
+
+#: paybyway.php:800
+msgid "Expired card."
+msgstr "Vanhentunut kortti."
+
+#: paybyway.php:802
+msgid "Withdrawal amount limit exceeded."
+msgstr "Kortin maksuraja ylittyi."
+
+#: paybyway.php:804
+msgid ""
+"Restricted card. The card holder should verify that the online payments are "
+"actived."
+msgstr ""
+"Rajoitettu kortti. Kortinhaltijan tulisi varmistaa, että verkkomaksaminen on "
+"aktivoitu kortille."
+
+#: paybyway.php:806
+msgid ""
+"Timeout communicating with the acquirer. The payment should be tried again "
+"later."
+msgstr ""
+"Yhteysongelma korttimaksujen prosessoijaan. Maksua tulisi yrittää uudelleen."
+
+#: paybyway.php:817
+msgid "3-D Secure was used."
+msgstr "3-D Secure varmennettu tapahtuma."
+
+#: paybyway.php:819
+msgid "3-D Secure was not used."
+msgstr "3-D Secure varmennusta ei käytetty."
+
+#: paybyway.php:821
+msgid ""
+"3-D Secure was attempted but not supported by the card issuer or the card "
+"holder is not participating."
+msgstr ""
+"3-D Secure varmennusta yritettiin, mutta kortinmyöntäjä tai -haltija ei "
+"käytä varmennusta."
+
+#~ msgid "Card country: : "
+#~ msgstr "Kortinmyöntäjämaa:"
+
+#~ msgid "Chosen payment method: Card payment"
+#~ msgstr "Valittu maksutapa: Korttimaksu"
+
+#~ msgid "Chosen payment method: "
+#~ msgstr "Valittu maksutapa:"
